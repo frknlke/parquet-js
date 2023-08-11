@@ -2,7 +2,7 @@
 const parquet = require('..');
 
 async function example() {
-  let reader = await parquet.ParquetReader.openFile("/home/frknlke/Desktop/parquet-js/examples/original.parquet");
+  let reader = await parquet.ParquetReader.openFile("original.parquet");
 
   let cursor = reader.getCursor();
   let record = null;
