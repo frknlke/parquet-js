@@ -35,7 +35,7 @@ Once you have installed the parquet.js library, you can import it as a single
 module:
 
 ``` js
-var parquet = require('parqueta-javascript');
+var parquet = require('parquet-javascript');
 ```
 
 Parquet files have a strict schema, similar to tables in a SQL database. So,
