@@ -2,7 +2,7 @@
   "name": "parquet-javascript",
   "description": "fully asynchronous, pure JavaScript implementation of the Parquet file format",
   "main": "parquet.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/frknlke/parquet-js",
   "author": "frknlke <furkan.ulke@boun.edu.tr>",
   "license": "MIT",
