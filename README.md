@@ -1,3 +1,7 @@
+# CURRENT STATUS: INACTIVE
+This project requires a major overhaul, as well as handling and sorting through dozens of issues and prs.
+Please contact me if you're up for the task.
+
 # parquet.js
 
 fully asynchronous, pure node.js implementation of the Parquet file format
@@ -25,7 +29,7 @@ To use parquet.js with node.js, install it using npm:
   $ npm install parquet-javascript
 ```
 
-_parquet.js requires node.js >= 7.6.0_
+_parquet.js requires node.js >= 8_
 
 
 Usage: Writing files
@@ -73,6 +77,9 @@ await writer.appendRow({name: 'oranges', quantity: 10, price: 2.5, date: new Dat
 Once we are finished adding rows to the file, we have to tell the writer object
 to flush the metadata to disk and close the file by calling the `close()` method:
 
+``` js
+await writer.close();
+```
 
 Usage: Reading files
 --------------------
@@ -354,7 +361,7 @@ Please make sure you sign the [contributor license agreement](https://github.com
 License
 -------
 
-Copyright (c) 2017 ironSource Ltd.
+Copyright (c) 2017-2019 ironSource Ltd.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in the
